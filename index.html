@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">   
+     <title>cruds</title>
+     <link rel="stylesheet" href="bootstrap.css">
+<link rel="stylesheet" href="style.css">
+</head >
+<body>
+    <div class="crud">
+        <div class="text">
+            <h1>cruds</h1>
+            <p>create read upote delete search</p>
+        </div>
+    <div class="inputs">
+        <input type="text" id="text" placeholder="title">
+        <div class="price">
+            <input onkeyup="getTotal()" type="number" id="price" placeholder="price">
+            <input onkeyup="getTotal()" ype="number" id="texes" placeholder="texes">
+            <input onkeyup="getTotal()" type="number" id="ads" placeholder="ads">
+            <input onkeyup="getTotal()" type="number" id="discount" placeholder="discount">
+        </div>
+        <input type="number" id="count" placeholder="count" >
+        <input type="text" id="category" placeholder="category">
+        <button type="button" class="btn btn-outline-info" id="btn">create</button>
+    </div>
+    <div class="outputs">
+        <div class="searchblock">
+            <!-- <input type="text" id="search" placeholder="search">
+            <div class="bnt">
+                <button type="button" class="btn btn-outline-primary" id="title">search by title</button>
+                <button type="button" class="btn btn-outline-primary" id="search">search by category</button>
+            </div> -->
+            <table>
+                <tr>
+                    <th>id</th>
+                    <th>title</th>
+                    <th>price</th>
+                    <th>texes</th>
+                    <th>ads</th>
+                    <th>discount</th>
+                    <th>updata</th>
+                    <th>delete</th>
+                </tr>
+                <tbody id="td">
+                   <!-- <tr>
+                    <td>1</td>
+                    <td>oppo</td>
+                    <td>10000</td>
+                    <td>100</td>
+                    <td>5000</td>
+                    <td>5000</td>
+                    <td><button type="button" class="btn btn-outline-danger">delete</button></td>
+                    <td> <button type="button" class="btn btn-outline-light">delete</button> </td>
+                   </tr>
+                   <tr>
+                    <td>2</td>
+                    <td>realme</td>
+                    <td>10000</td>
+                    <td>100</td>
+                    <td>5000</td>
+                    <td>7000</td>
+                    <td><button type="button" class="btn btn-outline-danger">delete</button></td>
+                    <td> <button type="button" class="btn btn-outline-light">delete</button> </td>
+                   </tr>
+                   <tr>
+                    <td>3</td>
+                    <td>oppo</td>
+                    <td>9900</td>
+                    <td>100</td>
+                    <td>5000</td>
+                    <td>8000</td>
+                    <td><button type="button" class="btn btn-outline-danger">delete</button></td>
+                    <td> <button type="button" class="btn btn-outline-light">delete</button> </td>
+                   </tr>
+                   <tr>
+                    <td>4</td>
+                    <td>sone</td>
+                    <td>10000</td>
+                    <td>100</td>
+                    <td>5000</td>
+                    <td>9000</td>
+                    <td><button type="button" class="btn btn-outline-danger">delete</button></td>
+                    <td> <button type="button" class="btn btn-outline-light">delete</button> </td>
+                   </tr>
+                   <tr>
+                    <td>5</td>
+                    <td>iphone</td>
+                    <td>10000</td>
+                    <td>100</td>
+                    <td>5000</td>
+                    <td>9000</td>
+                    <td><button type="button" class="btn btn-outline-danger">delete</button></td>
+                    <td> <button type="button" class="btn btn-outline-light">delete</button> </td>
+                   </tr> -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    </div>
+    <script src="jave.js"></script>
+</body>
+</html>

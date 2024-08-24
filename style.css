@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    text-transform: uppercase;
+    font-family: system-ui;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.838);
+    color: aliceblue;
+}
+.text{
+    color: aliceblue;
+    text-align: center;
+}
+.crud{
+    text-align: center;
+    color: aliceblue;
+    border-radius: 8px;
+}
+input{
+    border: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.58);
+    width: 100%;
+    margin: 4px;
+    color: aliceblue;
+}
+.price{
+    display: flex;
+    width: 97%;
+}
+input:focus{
+    background-color: black;
+    color: rgb(16, 69, 114);
+}
+.btn-outline-info{
+    width: 100%;
+    background-color: rgba(8, 12, 250, 0.726);
+    color: aliceblue;
+    border: none;
+}
+.btn-outline-primary{
+    background-color: rgba(0, 255, 208, 0.237);
+    color: rgb(1, 60, 112);
+    border: none;
+    
+}
+table{
+    width: 100%;
+    
+}
